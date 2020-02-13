@@ -1,0 +1,19 @@
+*** Cara Upload ke git***
+
+1. Git init
+2. Git status (cek file yang belum registrasi)
+3. Git add <file> (menambahkan file ke antrian)
+4. Git status
+5. Git commit -m "<keterangan>" memberikan label
+6. Git remote -v (melihat alamat tujuan)
+7. Git remote add origin <link git>
+8. Git push -u origin master
+
+<done>
+
+
+*** Cara Download dari Git ***
+1. tentukan dimana ingin menaruh folder yang akan di download
+2. git clone <link repo github>
+
+<done>
