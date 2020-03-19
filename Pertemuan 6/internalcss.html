@@ -1,4 +1,12 @@
-body{
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Sistem Akademik Kampus</title>
+    <style>
+        body{
     font-family: "Sarabun";
 }
 
@@ -127,3 +135,48 @@ ul.remember li.kecil{
 label#fchek{
     font-size: 14px;
 }
+    </style>
+</head>
+<body>
+<div class="top">
+    <div class="gambar"> 
+        <img class="logo" src="img/Picture1.png" alt="">
+    </div>
+   <div class="menu">
+    <ul class="headermenu">
+        <li>Home</li>
+        <li>News</li>
+        <li>Kontak</li>
+        <li>About</li>
+    </ul>
+   </div>
+</div>
+<div class="body">
+    <div class="ilustrasi">
+        <img class="banner" src="img/kampus-01.png" alt="">
+    </div>
+    <div class="login">
+        <h1>Welcome Back to Sistem Informasi <br>Kampus STMIK Primakara</h1>
+        <h5>Silahkan melakukan login terlebih dahulu untuk dapat mengakses <br>sistem akademik dan semua layanan yang sudah terintegrasi dengan baik</h5>
+        <br>
+        <div class="formlogin">
+            <form>
+                <input type="email" name="fusername" placeholder="Username.."><br><br>
+                <input type="password" name="fpassword" placeholder="Password.."><br><br>
+                <ul class="remember">
+                    <li class="kecil">Forgot password ? </li>
+                    <li>
+                    <input type="checkbox" id="fchek">
+                    <label for="fchek" id="fchek">Remember me</label> 
+                     </li>
+                    <br><br>
+                </ul>
+                <input type="submit" value="Log in">
+            </form>
+        </div>
+    </div>
+
+    <div class="hebat"></div>
+</div>
+</body>
+</html>
