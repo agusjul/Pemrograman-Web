@@ -1,0 +1,60 @@
+.top{
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.gambar{
+    justify-content: flex-start;
+    display: flex;
+}
+
+div.menu {
+    justify-content: flex-end;
+    display: flex;
+}
+
+img.logo{
+    width: 150px;
+    height: auto;
+   
+}
+
+ul.headermenu{
+    list-style-type: none;
+    overflow: hidden;    
+    margin: 0;
+    padding: 0;
+    float: right;
+    display: flex;
+    
+}
+
+ul.headermenu li {
+  
+    color: deepskyblue;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+div.body{
+    display: flex;
+    justify-content: space-between;
+}
+
+div.ilustrasi{
+    justify-content: flex-start;
+}
+
+div.body img.banner{
+    width: 50%;
+    height: auto;
+    
+}
+
+
+div.login{
+    background-color: dodgerblue;
+    justify-content: flex-end;
+}
